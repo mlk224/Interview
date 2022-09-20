@@ -16,8 +16,14 @@
             <h1 id="intro-Jack"> <img class="jackPhoto" src="images\JackBushFootball.jpg" style="width:20%" align="right">Jack Bush <br></h1>
             <h5 id="intro-Pronouns">(He/Him/His)</h5>
             <h2 id="intro-KnowMe"><br><br><br>Get to know me!</h2>
-            <img class="arrow bounce">
-        
+            <img href="#" class="arrow bounce">
+            <script>
+                document.getElementByClass('arrow bounce').on("click", function(e) {
+                    $(document).scrollTop($(this).next().offset().top);
+                    // $(this).parent().next() // this is the next div container.
+                    return false; // prevent anchor
+                });
+            </script>
         </section>
 
         <section class="blueSection">
@@ -125,8 +131,8 @@
                 <tr>
                     <td align="right"><b>How would your friends and family describe you?</b><br><br></td>
                     <td class="invis">blank</td>
-                    <td align="left">Jack’s friends may desribe him as an idiot, but his family would descibe him as caring and loving.
-                        Talking with him for only 30 minutes, I would descibe him as passionate, proud, and talented!<br><br></td>
+                    <td align="left">Jack’s friends may describe him as an idiot, but his family would describe him as caring and loving.
+                        Talking with him for only 30 minutes, I would describe him as passionate, proud, and talented!<br><br></td>
                 </tr>
                 <tr>
                     <td align="right"><b>What do you wish more people knew about you?</b></td>
@@ -146,27 +152,27 @@
                     <td align="right"><b>What is your life motto?</b></td>
                     <td class="invis">blank</td>
                     <td align="left">Jack is a go getter. His motto is “keep going” and his greatest fear is wasting his talent, his
-                        brains, his athletics, and anything he has to offer! Jack’s biggest pet peave is someone who doesnt
-                        care about anything and want to have a purpose. A big inspiration in Jack’s life is his father. Jack 
+                        brains, his athletics, and anything he has to offer! Jack’s biggest pet peeve is someone who doesn't
+                        care about anything and doesn't want to have a purpose. A big inspiration in Jack’s life is his father. Jack 
                         is close to his father and saw how he created a life for himself and how he made his dreams and aspirations into a reality.<br><br></td>
                 </tr>
                 <tr>
                     <td align="right"><b>What is your biggest regret?</b></td>
                     <td class="invis">blank</td>
-                    <td align="left">Jack regrest being closed off to people in high school and not allowing himself to 
+                    <td align="left">Jack regrets being closed off to people in high school and not allowing himself to 
                         have as great an experience as he could have. But, Jack believes that he made up for that with his exciting college career!<br><br></td>
                 </tr>
                 <tr>
                     <td align="right"><b>When were you happiest?</b></td>
                     <td class="invis">blank</td>
-                    <td align="left">Sophomore year 2020, the SARS-COV-2 pandemic cancelled Lehigh's football season. So, although Jack wasn't able to play football that season, Jack was able to hang out with his roommates all day long, everyday.<br><br></td>
+                    <td align="left">Sophomore year 2020, the SARS-COV-2 pandemic cancelled Lehigh's football season. So, although Jack wasn't able to play football that season, Jack was able to hang out with his roommates all day long, every day.<br><br></td>
                 </tr>
                 <tr>
                     <td align="right"><b>What work experience do you have? </b></td>
                     <td class="invis">blank</td>
-                    <td align="left">Outside of school and football, Jack has worked numerious jobs. He was once a day care assitant for Pre K
+                    <td align="left">Outside of school and football, Jack has worked numerous jobs. He was once a day care assistant for Pre K
                         through 5th grade, he was a fry cook at a pizza shop, and he interned as an athletic director
-                        assitant.</td>
+                        assistant.</td>
                 </tr>
                 <tr>
                     <td align="right"><b>Do you have any pets back at home?</b></td>

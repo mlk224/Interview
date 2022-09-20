@@ -6,6 +6,7 @@ body{
     font-family:sans-serif;
     text-align:left;
     color:rgb(65, 65, 65);
+    scroll-behavior: smooth;
 }
 p{
     text-align:center;
@@ -139,6 +140,7 @@ ul{
   font-size:1.5vw;
   padding-left:75px;
   padding-right:75px;
+  vertical-align:center;
 }
 .QsPhotos{
   border-radius:5% ;
