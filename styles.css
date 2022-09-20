@@ -8,6 +8,9 @@ body{
     color:rgb(65, 65, 65);
     scroll-behavior: smooth;
 }
+html{
+  scroll-behavior: smooth;
+}
 p{
     text-align:center;
 }
