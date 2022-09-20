@@ -100,7 +100,7 @@ section{
 }
 .orangeSection{
     scroll-snap-align:start;
-    height:230vh; 
+    height:235vh; 
     background-color:rgba(255, 175, 101, 0.817);
     color:black;
 }
